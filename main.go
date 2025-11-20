@@ -9,7 +9,7 @@ import (
 func main() {
 	// Define a simple handler
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Hello, World! This server is running.")
+		fmt.Fprintf(w, "Hello, World! This server is running at 102 Pheasant!")
 	})
 
 	http.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
